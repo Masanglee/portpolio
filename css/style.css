@@ -1,5 +1,6 @@
 
-* {padding: 0px; border: 0px;margin: 0px; color: #fff;}
+* {padding: 0px; border: 0px;margin: 0px; color: #fff; }
+li {list-style: none;}
 
 .head {width: 100%;height: 140px; background: linear-gradient(to right,#2B2E2B,#111311) ;}
 .sectionbody{width: 996px;height: 3100px; background: linear-gradient(to right,#252D24, #111210 25%,#111210 ); margin: 0 auto;}
@@ -17,6 +18,14 @@ img {width: 184px; height: 184px;float: left;}
 
 .section1 {width: 768px; height: 230px;margin-bottom: 24px;}
 .section1_1 {width: 768px; height: 35px;float: left}
+.section1 ul li:nth-last-child(6) {width: 93px;height:123px ; display: inline-block;background:url(../images/html_css_JS.png)left no-repeat ;background-size: 300%;margin-right: 16px;}
+.section1 ul li:nth-last-child(5) {width: 93px;height:123px ; display: inline-block;background:url(../images/html_css_JS.png)center no-repeat ;background-size: 300%;margin-right: 16px;}
+.section1 ul li:nth-last-child(4) {width: 93px;height:123px ; display: inline-block;background:url(../images/html_css_JS.png)right no-repeat ;background-size: 300%;margin-right: 16px;}
+.section1 ul li:nth-last-child(3) {width: 93px;height:123px ; display: inline-block;background:url(../images/image6.png)center no-repeat;width:110px;height: 110px ;margin-right: 16px;}
+.section1 ul li:nth-last-child(2) {width: 93px;height:123px ; display: inline-block;background:url(../images/image7.png)center no-repeat;width:110px;height: 110px ;margin-right: 16px;}
+.section1 ul li:nth-last-child(1) {width: 93px;height:123px ; display: inline-block;background:url(../images/image8.png)center no-repeat;width:110px;height: 110px ;margin-right: 16px;}
+
+
 
 .section2 {width: 768px; height: 230px;margin-bottom: 24px;}
 .section2_1 {width: 768px; height: 35px;float: left}
