@@ -1,14 +1,24 @@
 
 * {padding: 0px; border: 0px;margin: 0px; color: #fff; }
 li {list-style: none;}
-.bg { width: 100%;height: 100%;position: fixed; top:0px;left: 0px;z-index: -999;opacity: 90%;}
-.head {width: 100%;height: 140px; background: linear-gradient(to right,#171817,#111311) ;}
+.bg { width: 100%;height: 100%;position: fixed; top:140px;left: 0px;z-index: -999;opacity: 90%;}
+.head {width: 100%;height: 140px; background: linear-gradient(to right,#171817,#111311);margin: 0 auto;}
 .head .text {width: 1024px; height: 141px; margin: 0 auto;}
 .head .text h1{font-size: 50px; display: inline-block; float: left;margin: 40px 20px 0 20px;}
 .head .text ul li {display: inline-block; font-size: 20px ;padding: 20px 10px;margin-top: 52px;}
+.head .time {width: 212px;height: 50px; float: right;margin: 50px 30px;text-align: right;font-size: 14px;padding: 0;}
+
+
+
 
 .sectionbody{width: 996px;height: 3100px; background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9) ); margin: 0 auto;padding:43px 0 0 28px;}
-
+.sectionbody2 {width: 167px; height: 3000;float: right;padding-right: 30px; text-align: right;}
+.sectionbody2 h2{text-align: right;} 
+.sectionbody2 h3{text-align: right;margin-bottom: 30px;} 
+.sectionbody2 span{font-size: 18px;} 
+.sectionbody2 input{width: 108px; height: 18px; margin: 20px 0 0; text-align: center;color: #000;}
+.sectionbody2 button{width: 108px; height: 18px; text-align: center;color: #000;}
+.sectionbody2 ul li{display: inline-block;}
 
 .profile{width: 8768px; height: 285px;}
 .profile img {width: 184px; height: 184px;float: left;}
@@ -22,8 +32,8 @@ li {list-style: none;}
 .textbox span {font-size:12px; line-height: 70px;}
 
 
-.section_background_body {background-color :#2D312D;}
-.section_background_panal {background:linear-gradient(to right, #5A605A,#3E443E);}
+.section_background_body {background-color :#2D312D;float: left;}
+.section_background_panal {background:linear-gradient(to right, #5A605A,#3E443E); float: left;}
 .section_background_panal h1{font-size: 24px;margin-left: 10px;}
 
 .section0 {width: 768px; height: 93px;margin-bottom: 24px;}
@@ -43,7 +53,7 @@ li {list-style: none;}
 
 
 
-.section2 {width: 768px; height: 175px;margin-bottom: 24px;}
+.section2 {width: 768px; height: 175px;margin-bottom: 24px;float: left;}
 .section2_1 {width: 768px; height: 35px;float: left; }
 .section2_1 h1{font-size: 24px;margin-left: 10px;}
 
@@ -54,6 +64,11 @@ li {list-style: none;}
 .section2 ul li:nth-last-child(4) {width: 93px;height:123px ; display: inline-block;background:url(../images/image_zbrush.png)center no-repeat;width:110px;height: 110px ;margin-right: 40px;}
 .section2 ul li:nth-last-child(5) {width: 93px;height:123px ; display: inline-block;background:url(../images/image_max.png)center no-repeat;width:110px;height: 110px ;margin-right: 40px;}
 
-.section3 {width: 768px; height: 492px;margin-bottom: 24px;}
+.section3 {width: 768px; height: 492px;margin-bottom: 24px;float: left;}
 .section3_1 {width: 768px; height: 35px;float: left; }
 .section3_1 h1{font-size: 24px;margin-left: 10px;}
+
+
+
+/*  옆 라인 */
+.selectbody2{width: 167px;height: 2100px; float: right; border: 1px solid red;text-align: right;}
