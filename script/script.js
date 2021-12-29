@@ -1,4 +1,5 @@
 const body = document.body
+const bg = document.querySelector(".bg")
 
 const backgroundImages = [
    "https://cdn.pixabay.com/photo/2016/01/14/02/20/night-view-1139229_960_720.jpg",
@@ -10,10 +11,10 @@ const backgroundImages = [
 
 const backgroundImage = () => {
    const random = backgroundImages[ Math.floor(Math.random()*backgroundImages.length)]
-body.style.background=`top center no-repeat url(${random})` 
-body.style.backgroundSize="100%"
-body.style.display="fixed"
+bg.style.background=`top center no-repeat url(${random})` 
+bg.style.backgroundSize="100%"
+bg.style.display="fixed"
 }
 backgroundImage();
 
-//background: no-repeat;
+// background: no-repeat;

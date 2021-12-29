@@ -1,21 +1,30 @@
 
 * {padding: 0px; border: 0px;margin: 0px; color: #fff; }
 li {list-style: none;}
-body { width: 100%;height: 100px;}
-.head {width: 100%;height: 140px; background: linear-gradient(to right,#2B2E2B,#111311) ;}
+.bg { width: 100%;height: 100%;position: fixed; top:0px;left: 0px;z-index: -999;opacity: 90%;}
+.head {width: 100%;height: 140px; background: linear-gradient(to right,#171817,#111311) ;}
 .head .text {width: 1024px; height: 141px; margin: 0 auto;}
+.head .text h1{font-size: 50px; display: inline-block; float: left;margin: 40px 20px 0 20px;}
 .head .text ul li {display: inline-block; font-size: 20px ;padding: 20px 10px;margin-top: 52px;}
 
-.sectionbody{width: 996px;height: 3100px; background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9) ); margin: 0 auto;}
+.sectionbody{width: 996px;height: 3100px; background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9) ); margin: 0 auto;padding:43px 0 0 28px;}
 
 
 .profile{width: 8768px; height: 285px;}
-img {width: 184px; height: 184px;float: left;}
-.textbox{width: 550px; height: 285px;box-sizing: border-box;float: left;margin-left: 23px;}
+.profile img {width: 184px; height: 184px;float: left;}
+.textbox{width: 550px; height: 285px;box-sizing: border-box;float: left;margin-left: 23px;position: relative}
+.textbox h1{font-size: 24px; line-height: 30px;}
+.textbox .image5{width: 16px;height: 16px; float: right; position: absolute; top: 75px; left: 200px;}
+.textbox .imagegit_0{width: 16px;height: 16px; float: right; position: absolute; top: 75px; left: 225px;}
+.textbox .imagegit_1{width: 59px;height: 16px; float: right; position: absolute; top: 75px; left: 250px;}
+.textbox h2 {font-size: 18px; margin: 8px auto;}
+.textbox p {font-size:12px; line-height: 15px;}
+.textbox span {font-size:12px; line-height: 70px;}
 
 
 .section_background_body {background-color :#2D312D;}
 .section_background_panal {background:linear-gradient(to right, #5A605A,#3E443E);}
+.section_background_panal h1{font-size: 24px;margin-left: 10px;}
 
 .section0 {width: 768px; height: 93px;margin-bottom: 24px;}
 .section0_1 {width: 768px; height: 35px;float: left;}
@@ -23,7 +32,8 @@ img {width: 184px; height: 184px;float: left;}
 
 .section1 {width: 768px; height: 230px;margin-bottom: 24px;}
 .section1_1 {width: 768px; height: 35px;float: left}
-.section1 ul {text-align: center;}
+.section1_1 h1 {font-size: 24px;margin-left: 10px;}
+.section1 ul {text-align: center; padding: 70px 0 0 30px;}
 .section1 ul li:nth-last-child(6) {width: 93px;height:123px ; display: inline-block;background:url(../images/html_css_JS.png)left no-repeat ;background-size: 300%;margin-right: 16px;}
 .section1 ul li:nth-last-child(5) {width: 93px;height:123px ; display: inline-block;background:url(../images/html_css_JS.png)center no-repeat ;background-size: 300%;margin-right: 16px;}
 .section1 ul li:nth-last-child(4) {width: 93px;height:123px ; display: inline-block;background:url(../images/html_css_JS.png)right no-repeat ;background-size: 300%;margin-right: 20px;}
@@ -35,6 +45,7 @@ img {width: 184px; height: 184px;float: left;}
 
 .section2 {width: 768px; height: 175px;margin-bottom: 24px;}
 .section2_1 {width: 768px; height: 35px;float: left; }
+.section2_1 h1{font-size: 24px;margin-left: 10px;}
 
 .section2 ul {text-align: center;}
 .section2 ul li:nth-last-child(1) {width: 93px;height:123px ; display: inline-block;background:url(../images/image_blander.png)center no-repeat; width:100px;height: 100px ;margin-right: 40px;}
@@ -45,3 +56,4 @@ img {width: 184px; height: 184px;float: left;}
 
 .section3 {width: 768px; height: 492px;margin-bottom: 24px;}
 .section3_1 {width: 768px; height: 35px;float: left; }
+.section3_1 h1{font-size: 24px;margin-left: 10px;}
