@@ -4,6 +4,13 @@ li {list-style: none;}
 
 .hide {display: none;}
 
+
+
+/* PC (해상도 1024px)*/
+@media all and (min-width:1023px) {
+   
+
+
 /*팝업*/
 .popup{width: 500px; height: 600px; position: absolute; top: 20%; right: 50%; background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9)); z-index: 10;}
 
@@ -25,7 +32,7 @@ li {list-style: none;}
 100%{background-color:#fff;transform: rotate(405deg)}
 }
 /*본문 백그라운드  */
-.bg { width: 100%;height: 100%;position: fixed; top:0;left: 0px;z-index: -999;opacity: 90%;}
+.bg { width: 100%;height: 100%;position: fixed; top:0;left: 0px;z-index: -999;opacity: 90%;min-width: 1920px;}
 
 /* head */
 .head {width: 100%;height: 140px; background: linear-gradient(to right,#171817,#111311);margin: 0 auto;}
@@ -96,3 +103,17 @@ li {list-style: none;}
 .section3 {width: 768px; height: 492px;margin-bottom: 24px;float: left;}
 .section3_1 {width: 768px; height: 35px;float: left; }
 .section3_1 h1{font-size: 24px;margin-left: 10px;}
+
+
+}
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+ 
+   *{background-color: #000;}
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+    *{background-color: red;}
+}
