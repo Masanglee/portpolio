@@ -81,33 +81,36 @@ const agecalculator = (Event) => {
         const checkMonth = parseInt(divinmonth)
         const checkDay = parseInt(divinday)
 
+        console.log(checkMonth, typeof checkMonth)
         console.log(checkDay, typeof checkDay)
 
-        // 
-        if (checkMonth <= 13 && checkMonth >= 13 && checkDay === 0 && checkDay >= 32) {
+        // 날자를 올바르게 출력 월별마다 32 일 이상으로 잡히는거 방지
+        if (checkMonth <= 0 || checkMonth >= 13 ) {
             console.log(123451251)
             daycalculator.innerHTML = `날자가 범위를<br> 벗어났습니다.`
             return
-        } else {
-
+        } else if (checkDay <= 0 || checkDay >= 32 ) {
+            console.log(444444444)
+            daycalculator.innerHTML = `날자가 범위를<br> 벗어났습니다.`
+            return
         }
         yearcalculator.innerText = `${checkYear}년`
         monthcalculator.innerText = `${checkMonth}월`
         daycalculator.innerText = `${divinday}일`
-        ///////////////////////////////////////////////////////////////////////////////////////////
+
+        const getTime = new Date(`${checkYear},${checkMonth},${divinday}`);
+
+getTime.getTime();
 
 
+
+
+console.log(getTime)
     } else if (inputLength >= 7 || inputLength <= 9) {
         daycalculator.innerHTML = `<p style="font-size:15px">올바른 값을<br>입력해주세요<br> ex) 19900819 </p>`
         Event.preventDefault();
         return
     }
-    //  else if () {
-    //     daycalculator.innerHTML = `올바른 값을<br>입력해주세요<br ex) 19900819`
-    //     Event.preventDefault();
-    //     return
-    // }
-
     Event.preventDefault();
 
 
