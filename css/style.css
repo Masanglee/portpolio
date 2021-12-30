@@ -4,7 +4,7 @@ li {list-style: none;}
 .bg { width: 100%;height: 100%;position: fixed; top:0;left: 0px;z-index: -999;opacity: 90%;}
 .head {width: 100%;height: 140px; background: linear-gradient(to right,#171817,#111311);margin: 0 auto;}
 .head .text {width: 1024px; height: 141px; margin: 0 auto;}
-.head .text h1{font-size: 50px; display: inline-block; float: left;margin: 40px 20px 0 20px;}
+.head .text h1{font-size: 50px;  float: left;margin: 40px 20px 0 20px;}
 .head .text ul li {display: inline-block; font-size: 20px ;padding: 20px 10px;margin-top: 52px;}
 .head .time {width: 212px;height: 50px; float: right;margin: 50px 30px;text-align: right;font-size: 14px;padding: 0;}
 
@@ -17,8 +17,10 @@ li {list-style: none;}
 .sectionbody2 h3{text-align: right;margin-bottom: 30px;} 
 .sectionbody2 span{font-size: 18px;} 
 .sectionbody2 input{width: 108px; height: 18px; margin: 20px 0 0; text-align: center;color: #000;}
+.sectionbody2 input:valid {border-color:green ;}
+.sectionbody2 input:invalid {border-color:red ;}
 .sectionbody2 button{width: 108px; height: 18px; text-align: center;color: #000;}
-.sectionbody2 ul li{display: inline-block;}
+.sectionbody2 ul li{display: inline-block; margin: 10px 0 0 5px;}
 
 .profile{width: 8768px; height: 285px;}
 .profile img {width: 184px; height: 184px;float: left;}
@@ -38,7 +40,7 @@ li {list-style: none;}
 
 .section0 {width: 768px; height: 93px;margin-bottom: 24px;}
 .section0_1 {width: 768px; height: 35px;float: left;}
-.section0 ul li {display: inline-block; float: left; padding: 18px 10px;}
+.section0 ul li {display: inline-block; ; padding: 18px 10px;}
 
 .section1 {width: 768px; height: 230px;margin-bottom: 24px;}
 .section1_1 {width: 768px; height: 35px;float: left}

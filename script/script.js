@@ -60,20 +60,65 @@ setInterval(time, 1000)
 //상대 나이 계산--------------------------------------------------------------------------------------------------
 const input = document.querySelector("input")
 const button = document.querySelector("button")
-const yearCulculator = document.querySelector(".year")
-const monthCulculator = document.querySelector(".month")
-const dayCulculator = document.querySelector(".day")
+const yearCulculator = document.querySelector(".yearcul")
+const monthCulculator = document.querySelector(".monthcul")
+const dayCulculator = document.querySelector(".daycul")
 
 const ageCulculator = (Event) => {
-    Event.preventDefault();
-    localStorage.setItem("value", input.value)
-    const value = localStorage.getItem("value")
-    const divinYear = String(value).substring(0, 4)
-    const divinmonth = String(value).substring(4, 6)
-    const divinday = String(value).substring(6, 8)
 
-    yearCulculator.innerText = `${divinYear}년`
-    monthCulculator.innerText = `${divinmonth}월`
-    dayCulculator.innerText = `${divinday}일`
+    const inputLength = input.value.length
+    
+     if (inputLength === 0) {
+        console.dir(input)
+return
+    }else if (inputLength === 8) {
+        Event.preventDefault();
+
+
+        localStorage.setItem("value", input.value)
+        const value = localStorage.getItem("value")
+        const divinYear = String(value).substring(0, 4)
+        const divinmonth = String(value).substring(4, 6)
+        const divinday = String(value).substring(6, 8)
+
+        const checkYear = parseInt(divinYear)
+        const checkMonth = parseInt(divinmonth)
+        const checkDay = parseInt(divinday)
+
+        console.log(checkMonth+"checkMonth")
+        console.log(divinYear)
+        console.log(divinmonth)
+        console.log(divinday)
+
+        // if (checkMonth <= 13 && checkMonth >=0 ) {
+        //     input.validationMessage = `${checkMonth}월 입니다 확인해보세요`
+        //     return
+        // }else if (value >= 00){
+        //     alert(`월이 입력되지 않았습니다. 확인해보세요`)
+        //     return
+        // }else if {
+
+       // }
+
+
+        yearCulculator.innerText = `${divinYear}년`
+        monthCulculator.innerText = `${divinmonth}월`
+        dayCulculator.innerText = `${divinday}일`
+
+
+
+    } else if (inputLength >= 7) {
+        Event.preventDefault();
+        return
+    } else if (inputLength <= 9) {
+        Event.preventDefault();
+        return
+    } 
+
+    Event.preventDefault();
+
+
+
+
 }
 button.addEventListener("click", ageCulculator)
