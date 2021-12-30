@@ -60,60 +60,53 @@ setInterval(time, 1000)
 //상대 나이 계산--------------------------------------------------------------------------------------------------
 const input = document.querySelector("input")
 const button = document.querySelector("button")
-const yearCulculator = document.querySelector(".yearcul")
-const monthCulculator = document.querySelector(".monthcul")
-const dayCulculator = document.querySelector(".daycul")
+const yearcalculator = document.querySelector(".yearcul")
+const monthcalculator = document.querySelector(".monthcul")
+const daycalculator = document.querySelector(".daycul")
 
-const ageCulculator = (Event) => {
+const agecalculator = (Event) => {
 
     const inputLength = input.value.length
-    
-     if (inputLength === 0) {
-        console.dir(input)
-return
-    }else if (inputLength === 8) {
+
+    if (inputLength === 8) {
         Event.preventDefault();
-
-
         localStorage.setItem("value", input.value)
         const value = localStorage.getItem("value")
+        //스트링으로 변환 : 문자열을 자르기 위해
         const divinYear = String(value).substring(0, 4)
         const divinmonth = String(value).substring(4, 6)
         const divinday = String(value).substring(6, 8)
-
+        //숫자로 변환 : 날자 계산을 위해
         const checkYear = parseInt(divinYear)
         const checkMonth = parseInt(divinmonth)
         const checkDay = parseInt(divinday)
 
-        console.log(checkMonth+"checkMonth")
-        console.log(divinYear)
-        console.log(divinmonth)
-        console.log(divinday)
+        console.log(checkDay, typeof checkDay)
 
-        // if (checkMonth <= 13 && checkMonth >=0 ) {
-        //     input.validationMessage = `${checkMonth}월 입니다 확인해보세요`
-        //     return
-        // }else if (value >= 00){
-        //     alert(`월이 입력되지 않았습니다. 확인해보세요`)
-        //     return
-        // }else if {
+        // 
+        if (checkMonth <= 13 && checkMonth >= 13 && checkDay === 0 && checkDay >= 32) {
+            console.log(123451251)
+            daycalculator.innerHTML = `날자가 범위를<br> 벗어났습니다.`
+            return
+        } else {
 
-       // }
-
-
-        yearCulculator.innerText = `${divinYear}년`
-        monthCulculator.innerText = `${divinmonth}월`
-        dayCulculator.innerText = `${divinday}일`
+        }
+        yearcalculator.innerText = `${checkYear}년`
+        monthcalculator.innerText = `${checkMonth}월`
+        daycalculator.innerText = `${divinday}일`
+        ///////////////////////////////////////////////////////////////////////////////////////////
 
 
-
-    } else if (inputLength >= 7) {
+    } else if (inputLength >= 7 || inputLength <= 9) {
+        daycalculator.innerHTML = `<p style="font-size:15px">올바른 값을<br>입력해주세요<br> ex) 19900819 </p>`
         Event.preventDefault();
         return
-    } else if (inputLength <= 9) {
-        Event.preventDefault();
-        return
-    } 
+    }
+    //  else if () {
+    //     daycalculator.innerHTML = `올바른 값을<br>입력해주세요<br ex) 19900819`
+    //     Event.preventDefault();
+    //     return
+    // }
 
     Event.preventDefault();
 
@@ -121,4 +114,4 @@ return
 
 
 }
-button.addEventListener("click", ageCulculator)
+button.addEventListener("click", agecalculator)
