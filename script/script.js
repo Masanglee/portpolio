@@ -12,7 +12,6 @@ const backgroundImages = [
     "https://cdn.pixabay.com/photo/2021/04/06/14/46/city-6156596_960_720.jpg",
     "https://cdn.pixabay.com/photo/2019/12/25/02/59/blue-village-4717743_960_720.jpg",
 ]
-
 const backgroundImage = () => {
     const random = backgroundImages[Math.floor(Math.random() * backgroundImages.length)]
     bg.style.background = `top center no-repeat url(${random})`
@@ -23,8 +22,6 @@ backgroundImage();
 //시계--------------------------------------------------------------------------------------------
 const times = document.querySelector(".text .time .year")
 const times_1 = document.querySelector(".text .time .clock")
-
-
 const time = () => {
     const realTime = new Date();
     const yearReal = realTime.getFullYear();
@@ -33,8 +30,6 @@ const time = () => {
     const hourReal = String(realTime.getHours()).padStart(2, 0)
     const minReal = String(realTime.getMinutes()).padStart(2, 0)
     const secReal = String(realTime.getSeconds()).padStart(2, 0)
-
-
     times.innerText = `${yearReal}년 ${monthReal}월 ${dayReal}일`
     times_1.innerText = `${hourReal}:${minReal}:${secReal}`
 }
@@ -80,16 +75,12 @@ const agecalculator = (Event) => {
         const checkYear = parseInt(divinYear)
         const checkMonth = parseInt(divinmonth)
         const checkDay = parseInt(divinday)
-
-        console.log(checkMonth, typeof checkMonth)
-        console.log(checkDay, typeof checkDay)
-
         // 날자를 올바르게 출력 월별마다 32 일 이상으로 잡히는거 방지
-        if (checkMonth <= 0 || checkMonth >= 13 ) {
+        if (checkMonth <= 0 || checkMonth >= 13) {
             console.log(123451251)
             daycalculator.innerHTML = `날자가 범위를<br> 벗어났습니다.`
             return
-        } else if (checkDay <= 0 || checkDay >= 32 ) {
+        } else if (checkDay <= 0 || checkDay >= 32) {
             console.log(444444444)
             daycalculator.innerHTML = `날자가 범위를<br> 벗어났습니다.`
             return
@@ -97,24 +88,18 @@ const agecalculator = (Event) => {
         yearcalculator.innerText = `${checkYear}년`
         monthcalculator.innerText = `${checkMonth}월`
         daycalculator.innerText = `${divinday}일`
-
+        const timeNow = new Date().getTime();
         const getTime = new Date(`${checkYear},${checkMonth},${divinday}`);
-
-getTime.getTime();
-
-
-
-
-console.log(getTime)
+        const getTimeToSec = getTime.getTime();
+        const gap = timeNow - getTimeToSec
+        const year = gap / (1000 * 60 * 60 * 24 * 365)
+        document.querySelector(".paintOnlyAge").innerHTML = `한국 나이는 ${Math.floor(year)}세<br> 입니다.`
+        document.querySelector(".paintKorAge").innerHTML = `만 나이는${Math.ceil(year)}세`
     } else if (inputLength >= 7 || inputLength <= 9) {
         daycalculator.innerHTML = `<p style="font-size:15px">올바른 값을<br>입력해주세요<br> ex) 19900819 </p>`
         Event.preventDefault();
         return
     }
     Event.preventDefault();
-
-
-
-
 }
 button.addEventListener("click", agecalculator)

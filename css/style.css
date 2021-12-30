@@ -20,7 +20,8 @@ li {list-style: none;}
 .sectionbody2 input:valid {border-color:green ;}
 .sectionbody2 input:invalid {border-color:red ;}
 .sectionbody2 button{width: 108px; height: 18px; text-align: center;color: #000;}
-.sectionbody2 ul li{display: inline-block; margin: 10px 0 0 5px;}
+
+.sectionbody2 ul li{display: inline-block; margin: 5px 0 0 5px;}
 
 .profile{width: 8768px; height: 285px;}
 .profile img {width: 184px; height: 184px;float: left;}
