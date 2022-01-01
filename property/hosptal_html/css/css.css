@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/**{border: 1px solid;box-sizing: border-box}*/
+
+*{font-family: 'Nanum Gothic', sans-serif;}
+
+#wrap {width: 100%; margin: 0 auto;}
+#header {width: 1040px;height: 170px; margin: 0 auto }
+#visual {width: 1920px;height: 315px;margin: 0  auto;background:url(../images/visual.jpg)center center;position: relative}
+
+#visual k {width: 10px; height: 10px; background: #EE7700; border-radius: 10px; position: absolute}
+#visual k:nth-child(1) {margin: -10px 355px}
+#visual k:nth-child(2) {margin: -10px 315px}
+
+#visual_sub k {width: 10px; height: 10px; background: #EE7700; border-radius: 10px; position: absolute}
+#visual_sub k:nth-child(1) {margin: -10px 355px}
+#visual_sub k:nth-child(2) {margin: -10px 315px}
+
+#visual_sub {width: 1920px;height: 315px;margin: 0  auto;background:url(../images/visual_01.png)center center repeat-x;position: relative}
+
+
+
+#section {width: 915px; height: 372px; margin: 0 auto; padding-top: 30px;font-size:0 }2
+#footer {width: 100%; height: 224px;margin:0  auto; background: #0A3653;}
+
+
+
+
+/*로그인 및 사이트맵.*/
+#header .top_set {width: 1040px; height: 60px;margin: 0 auto;}
+#header p {width: 65px;height: 19px; font-size: 16px;margin: 22px 0 0 0}
+#header .site {width: 65px;height: 19px;float:  left}
+#header span {float: right }
+#header .join {width: 65px;height: 19px;display: inline-block;}
+#header .login {width: 65px;height: 19px;display: inline-block;}
+
+#header  h1 {width: 267px;height: 45px;margin:0 auto}
+
+
+/*gnb*/
+
+#header > .gnb {width: 915px; margin:20px auto 0 auto; display: flex;justify-content:space-between; position: relative;}
+#header >.gnb > li {display: inline-block;font-size:16px; height: 40px; line-height: 40px;}
+#header >.gnb > li > .lnb { display:block; position: absolute ;; z-index: 3; display: none; background: #fff;}
+#header >.gnb > li > .lnb li {float: left;}
+#header >.gnb > li:hover > .lnb {display: block}
+#header > .gnb > li > a {display: block; padding: 0 40px;}
+#header > .gnb > li .lnb a {display: block; padding: 0 15px}
+
+#header >.gnb > li:nth-child(6):hover .lnb {right: 0px}
+/* gnb li ul li 이 서브메뉴*/
+
+
+
+
+
+#visual .textbox {width: 520px;height: 192px; float: right; position: absolute; text-align: right; left:45%; top:20%; color: #fff;z-index: 3}
+#visual span{display: inline-block;font-size: 32px; font-weight: 500;line-height: 50px}
+#visual b{display: inline-block;font-size: 42px;font-weight: 500; }
+#visual p{display: inline-block;font-size: 42px;font-weight: bold; }
+#visual p:last-child{background:rgba(4,54,110,0.5);font-size: 30px;font-weight: 100; height: 35px; line-height: 35px}
+
+#visual_sub .textbox {width: 520px;height: 192px; float: right; position: absolute; text-align: right; left:45%; top:20%; color: #fff;z-index: 3}
+#visual_sub span{display: inline-block;font-size: 32px; font-weight: 500;line-height: 50px}
+#visual_sub b{display: inline-block;font-size: 42px;font-weight: 500; }
+#visual_sub p{display: inline-block;font-size: 42px;font-weight: bold; }
+#visual_sub p:last-child{background:rgba(4,54,110,0.5);font-size: 30px;font-weight: 100; height: 35px; line-height: 35px}
+
+
+
+
+#section .button {width: 295px;height: 130px; display: inline-block;margin: 0 15px 15px 0;font-size: 20px; vertical-align: top;;text-align: center;font-weight: bold;}
+#section .button a{color:#fff;display: block; display: block;width: 295px;height: 130px; line-height: 145px}
+
+
+#section .b1 {background: #58B530 url(../images/hos.png);}
+#section .b2 {background: #EE7700 url(../images/sy.png);}
+#section .b3 {background: #F8B62B url(../images/tell.png)  ;margin-right: 0;}
+#section .b4 {background: #EE7700 url(../images/oc.png)}
+
+
+#section .b4 a{width: 295px;height: 130px ;display:inline-block;position: relative; left:0px}
+#section .b4 p{width: 196px; height: 20px;text-indent: 80px; position: absolute; top:-12px;left: 40px}
+#section .b4 span{font-size: 18px;position: absolute; top:14px;left: 10px; height: 100px;left: 40px}
+#section .b4 img{width: 68px;height: 20px; position: absolute ;left:60px;top:50px}
+
+#section .b5 {background: #007FEE url(../images/CPR.png) }
+#section .b5 a{width: 295px;height: 130px ;display:inline-block;position: relative;line-height: 26px;}
+#section .b5 a span{width: 100%;position: absolute ;top: 25px; left: 0px}
+#section .b6 {background: #58B530 url(../images/pi.png)  ;margin-right: 0;}
+
+#section2 {text-align: center;min-width: 1056px;}
+#section2 h1 {text-align: center;display: block;font-size:30px ;background: #fff;}
+#section2 h3 {text-align: center;display: block;font-size:16px ;background: #fff;}
+#section2 .news {width: 260px;height: 750px;display: inline-block;vertical-align: top;}
+#section2 .top_ul {width: 260px;height: 65px; font-size: 16px;display: }
+#section2 .top_ul a{display: inline-block;text-indent: 15px;margin-top:40px}
+#section2 .ul1 {border-bottom: 6px solid #00743C;background: #fff;}
+#section2 .ul2 {border-bottom: 6px solid #58B530;background: #fff;}
+#section2 .ul3 {border-bottom: 6px solid #EE7700;background: #fff;}
+#section2 .ul4 {border-bottom: 6px solid #F8B62B;background: #fff;}
+ 
+
+
+#section2 .contents  {width: 250px; font-size: 16px;padding: 0 5px;font-size: 14px;margin: 10px 0 24px ;}
+#section2 .contents figure{width: 234px; height: 275px;background-size:160%;margin-top: 6px; overflow: hidden;position: relative}
+#section2 .contents figure img{min-width:100%;position: absolute; top:50%; left: 50%;transform: translate(-50%, -50%)}
+#section2 .ul3_news {margin-bottom: 40px;}
+
+
+
+#wrap .gallery{width: 1040px;height: 900px;  margin: 0 auto}
+#wrap .gallery h1{font-size: 30px; text-indent: 63px}
+#wrap .gallery .line{width:113px; height: 5px;background: #007FEE; margin: 28px  0 0 63px;animation-name: down}
+@keyframes down {
+    0% {} 
+    100%   {}
+    
+}
+#wrap .gallery .floor{width:910px; height:880px; ;margin: 37px auto}
+#wrap .gallery .floor li{display: inline-block;font-size: 16px; margin-bottom: 2px;line-height: 32px;color: #707070}
+#wrap .gallery .floor li:first-child {width: 66px;height: 32px; background: #F4F4F4;text-align: center;font-weight: bold; font-size: 20px;}
+#wrap .gallery .floor img {margin: 26px 66px }
+
+#footer {width: 100%;height: 200px; background: #0A3653; margin-top: 40px}
+#footer h1{float: left; display: block; margin: 50px 0 0 10px}
+#footer .contbox{width: 1100px;border:1px solid; margin: 0 auto}
+#footer .textbox{width:700px; margin: 20px auto;float: right;font-size: 12px; color: #fff; line-height: 30px}
+#footer .textbox p {color:#9C7AD4; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
