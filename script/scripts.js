@@ -93,8 +93,8 @@ const agecalculator = (Event) => {
         const getTimeToSec = getTime.getTime();
         const gap = timeNow - getTimeToSec
         const year = gap / (1000 * 60 * 60 * 24 * 365)
-        document.querySelector(".paintOnlyAge").innerHTML = `한국 나이는 ${Math.floor(year)}세<br> 입니다.`
-        document.querySelector(".paintKorAge").innerHTML = `만 나이는${Math.ceil(year)}세`
+        document.querySelector(".paintOnlyAge").innerHTML = `만 나이는 ${Math.floor(year)}세<br> 입니다.`
+        document.querySelector(".paintKorAge").innerHTML = `한국 나이는${Math.ceil(year)+1}세`
     } else if (inputLength >= 7 || inputLength <= 9) {
         daycalculator.innerHTML = `<p style="font-size:15px">올바른 값을<br>입력해주세요<br> ex) 19900819 </p>`
         Event.preventDefault();
