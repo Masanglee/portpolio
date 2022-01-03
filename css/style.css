@@ -106,7 +106,7 @@ a{text-decoration:none ;}
 .section2 ul li:nth-last-child(5) {width: 93px;height:123px ; display: inline-block;background:url(../images/image_max.png)center no-repeat;width:110px;height: 110px ;margin-right: 40px;}
 
 
-.section3 {   width: 768px;height: 492px;margin-bottom: 24px;float: left;display: block;}
+.section3 {width: 768px;height: 492px;margin-bottom: 24px;float: left;display: block;}
 .section3_1 {width: 768px;height: 35px;float: left;}
 .section3_1 h1 {font-size: 24px;margin-left: 10px;}
 
@@ -114,14 +114,31 @@ a{text-decoration:none ;}
 .section3 .portpolioimgbox {width: 50%;height: 92%;border: 1px solid rgba(0, 0, 0, 0);box-sizing: border-box;float: left;text-align: center;}
 .section3 .portpolioimgbox .portpolioimgboxwrap {width: 100%;position: relative;box-sizing: border-box;height: auto;margin: 40px 0; }
 .section3 .portpolioimgbox .portpic {width: 300px;}
-.portpolioimgbox .portpic_top {position: absolute;background-color:rgba(111, 111, 111, 1) ;width: 300px;height: 49%;opacity: 0;transition: .5s;}
+.portpolioimgbox .portpic_top {position: absolute;background-color:rgba(111, 111, 111, 1) ;width: 300px;height: 49%;opacity: 0;transition: .5s;left: 41px;}
+.portpolioimgbox .portpic_top p{font-size: 20px;font-weight: bold;margin-top: 120px;}
 
-.portpolioimgbox .portpic_bottom {position: absolute;top: 49%;background-color: rgba(111, 111, 111, 1);width: 300px;height: 50%;opacity: 0;transition: .5s;}
+.portpolioimgbox .portpic_bottom {position: absolute;top: 49%;background-color: rgba(111, 111, 111, 1);width: 300px;height: 50%;opacity: 0;transition: .5s;left: 41px;}
+.portpolioimgbox .portpic_bottom p{font-size: 20px;font-weight: bold;margin-top: 120px;}
+
+
+.portpolioimgbox .zoomin_top{position: absolute;transition: .5s;top: 10%; left: 50%; transform: translate(-50%) ;opacity: 0;}
+.portpolioimgbox .zoomin_bottom{position: absolute;transition: .5s;top: 58%; left: 50%; transform: translate(-50%) ;opacity: 0;}
+
+
 .portpolioimgbox:hover  .portpic_top {opacity: 50%;}
 .portpolioimgbox:hover  .portpic_bottom {opacity: 50%;}
+.portpolioimgbox:hover  .zoomin_top{opacity: 80%} 
+.portpolioimgbox:hover  .zoomin_bottom{opacity: 80%} 
 .portpic_top:hover {background: salmon;}
 .portpic_bottom:hover {background: salmon;}
 
+.zoomin_top:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+.zoomin_bottom:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+
+
+
+.zoomin_top:hover {display: block; opacity: 100%;}
+.zoomin_bottom:hover {display: block; opacity: 100%;}
 
 .section3 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
 .section3 .portpoliotextbox h1{line-height: 25px;}
