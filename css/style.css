@@ -120,6 +120,8 @@ body{margin: 0px;}
 .section3 .portpic_bottom:hover {background: rgba(250, 128, 114, .9);}
 .section3 .zoomin_top:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
 .section3 .zoomin_bottom:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+
+
 .section3 .zoomin_top:hover {display: block; opacity: 100%;}
 .section3 .zoomin_bottom:hover {display: block; opacity: 100%;}
 .section3 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
