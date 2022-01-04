@@ -130,7 +130,33 @@ body{margin: 0px;}
 .section3 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section3 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
-
+.section7 {width: 768px;height: 492px;margin-bottom: 24px;float: left;display: block; overflow: hidden;}
+.section7_1 {width: 768px;height: 35px;float: left;}
+.section7_1 h1 {font-size: 24px;margin-left: 10px;}
+.section7 .portpolioimgbox {width: 50%;height: 92%;border: 1px solid rgba(0, 0, 0, 0);box-sizing: border-box;float: left;text-align: center;overflow: hidden; }
+.section7 .portpolioimgbox .portpolioimgboxwrap {width: 100%;position: relative;box-sizing: border-box;height: auto;margin: 40px 0; }
+.section7 .portpolioimgbox .portpic {width: 300px;}
+.section7 .portpolioimgbox .portpic_top {position: absolute;background-color:rgba(111, 111, 111, .4) ;width: 300px;height: 49%;opacity: 0;transition: .5s;left: 41px;}
+.section7 .portpolioimgbox .portpic_top p{font-size: 20px;font-weight: bold;margin-top: 120px;}
+.section7 .portpolioimgbox .portpic_bottom {position: absolute;top: 49%;background-color: rgba(111, 111, 111, .4);width: 300px;height: 50%;opacity: 0;transition: .5s;left: 41px;}
+.section7 .portpolioimgbox .portpic_bottom p{font-size: 20px;font-weight: bold;margin-top: 120px;}
+.section7 .portpolioimgbox .zoomin_top{position: absolute;transition: .5s;top: 10%; left: 50%; transform: translate(-50%) ;opacity: 0;}
+.section7 .portpolioimgbox .zoomin_bottom{position: absolute;transition: .5s;top: 58%; left: 50%; transform: translate(-50%) ;opacity: 0;}
+.section7 .portpolioimgbox:hover  .portpic_top {opacity: 100%;}
+.section7 .portpolioimgbox:hover  .portpic_bottom {opacity: 100%;}
+.section7 .portpolioimgbox:hover  .zoomin_top{opacity: 80%} 
+.section7 .portpolioimgbox:hover  .zoomin_bottom{opacity: 80%} 
+.section7 .portpic_top:hover {background: rgba(250, 128, 114, .9);}
+.section7 .portpic_bottom:hover {background: rgba(250, 128, 114, .9);}
+.section7 .zoomin_top:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+.section7 .zoomin_bottom:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+.section7 .zoomin_top:hover {display: block; opacity: 100%;}
+.section7 .zoomin_bottom:hover {display: block; opacity: 100%;}
+.section7 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
+.section7 .portpoliotextbox h1{line-height: 25px;}
+.section7 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section7 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
+.section7 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
 .section4 {width: 768px;height: 492px;margin-bottom: 24px;float: left;display: block;}
 .section4_1 {width: 768px;height: 35px;float: left;}
@@ -175,6 +201,8 @@ body{margin: 0px;}
 .section6 ul li img{width: 360px; float: left;}
 
 .gap{width: 100%;height: 250vh; background-color:#2e2e2e;}
+
+
 
 
 }

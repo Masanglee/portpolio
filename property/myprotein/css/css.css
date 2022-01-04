@@ -1,11 +1,13 @@
 @charset "utf-8";
-
+*{padding: 0;margin: 0;}
 li {list-style: none;}
 
 #wrap {width: 1920px; background: #fff;}
-#header {background: #4C4C4C; width: 1920px; height: 114px;}
-#header h1 {margin: 0 auto }
-.gnb {margin: auto 0; border: 4px solid green; text-align: center;font-size: 14px}
+#header {background: #4C4C4C; width: 100%; height: 114px;margin: 0 auto; display: block;padding: 5px 0;}
+#header img{border: 1px red solid;}
+#header h1 {margin: 0 auto; width: 164px ;height: 98px;}
+#wrap_main {margin: 0 auto;width: 1200px; border: 1px solid red;}
+
+.gnb {margin:0 auto 0;text-align: center;font-size: 14px; width: 1200px;}
 .gnb ul{display: inline-block; border: 1px solid red ; }
-.gnb li{display: inline-block; margin: 0 40px}
-#section {}
+.gnb li{display: inline-block; margin: 0 20px}
