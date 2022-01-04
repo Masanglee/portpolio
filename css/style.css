@@ -7,7 +7,7 @@ a{text-decoration:none ;}
 body{margin: 0px;}
 
 /* PC (해상도 1024px)*/
-@media all and (min-width:768px) {
+@media  all and (min-width:768px){
    
 
 
@@ -218,7 +218,7 @@ body{margin: 0px;}
 } */
 
 /* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
-@media all and (max-width:767px) {
+@media all and (max-width:767px){
       
 
 
@@ -277,7 +277,7 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .textbox .image5{width: 16px;height: 16px; display: inline-block;margin: 5px auto;}
 .textbox .imagegit_0{width: 16px;height: 16px;display: inline-block;margin: 5px auto;}
 .textbox .imagegit_1{width: 59px;height: 16px; display: inline-block;margin: 5px auto;}
-.textbox h2 {font-size: 14px; margin: 8px auto;}
+.textbox h2 {font-size: 14px; margin: 8px auto 0px;}
 .textbox p {font-size:12px; line-height: 15px;word-break:normal;}
 .textbox span {font-size:12px; line-height: 70px;}
 
@@ -294,23 +294,23 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .section1_1 {width: 100%; height: 35px;float: left}
 .section1_1 h1 {font-size: 24px;margin-left: 10px;}
 .section1 ul {text-align: center; padding: 70px 0 0 30px;}
-.section1 ul li {width: 80px;height:auto ; display: inline-block; margin:  0 15px 15px 15px;}
+.section1 ul li {width: 20%;height:auto ; display: inline-block; margin:  0 15px 15px 15px;}
 .section1 ul li img{width: 100%;height: 100%; display: inline-block;}
 
 /* 사이드 본문 */
-.section2 {width: 100%; margin-bottom: 24px;float: left;}
+.section2 {width: 100%; margin-bottom: 5px;float: left;}
 .section2_1 {width: 100%; height: 35px;float: left; }
 .section2_1 h1{font-size: 24px;margin-left: 10px;}
 .section2 ul {text-align: center; padding: 70px 0 0 30px;}
-.section2 ul li {width: 80px;height:auto ; display: inline-block;margin:  0 15px 15px 15px;}
+.section2 ul li {width: 20%;height:auto ; display: inline-block;margin:  0 15px 15px 15px;}
 .section2 ul li img{width: 100%;height: 100%; display: inline-block;}
 
-.section3 {width: 100%; margin-bottom: 24px;float: left;}
+.section3 {width: 100%; float: left;display: block;}
 .section3_1 {width: 100%; height: 35px;float: left; }
 .section3_1 h1{font-size: 24px;margin-left: 10px;}
-.section3 .portpolioimgbox {width: 50%;height: 92%;border: 1px solid rgba(0, 0, 0, 0);box-sizing: border-box;float: left;text-align: center;}
-.section3 .portpolioimgbox .portpolioimgboxwrap {width: 100%;position: relative;box-sizing: border-box;height: auto;margin: 40px 0; }
-.section3 .portpolioimgbox .portpic {width: 100%;margin-left: 5px;}
+.section3 .portpolioimgbox {width: 90%;height: auto;margin: 0 auto;}
+.section3 .portpolioimgbox .portpolioimgboxwrap {width: 100%;height: auto;}
+.section3 .portpolioimgbox .portpic {width: 100%; margin-top: 10px;}
 /* display : none */
 .section3 .portpolioimgbox .portpic_top {display: none}
 .section3 .portpolioimgbox .portpic_top p{display: none}
@@ -318,7 +318,7 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .section3 .portpolioimgbox .portpic_bottom p{display: none}
 .section3 .portpolioimgbox .zoomin_top{display: none}
 .section3 .portpolioimgbox .zoomin_bottom{display: none}
-.section3 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
+.section3 .portpoliotextbox {width: 90%; height: 92%;text-align: center;margin: 0 auto;}
 .section3 .portpoliotextbox h1{line-height: 40px;}
 .section3 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
 .section3 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
@@ -326,7 +326,7 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 
 
 
-.section4 {width: 100%;margin-bottom: 24px;float: left;display: block;}
+/* .section4 {width: 100%;margin-bottom: 24px;float: left;display: block;}
 .section4_1 {width: 100%;height: 35px;float: left;}
 .section4_1 h1 {font-size: 24px;margin-left: 10px;}
 .section4 .portpolioimgbox {width: 50%;height: 92%;border: 1px solid rgba(0, 0, 0, 0);box-sizing: border-box;float: left;text-align: center;}
@@ -342,7 +342,33 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .section4 .portpoliotextbox h1{line-height: 25px;font-size: 16px;}
 .section4 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
 .section4 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
-.section4 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
+.section4 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;} */
+
+
+.section4 {width: 100%; float: left;display: block;margin-bottom: 5px}
+.section4_1 {width: 100%; height: 35px;float: left; }
+.section4_1 h1{font-size: 24px;margin-left: 10px;}
+.section4 .portpolioimgbox {width: 90%;height: auto;margin: 0 auto;}
+.section4 .portpolioimgbox .portpolioimgboxwrap {width: 100%;height: auto;}
+.section4 .portpolioimgbox .portpic {width: 100%; margin-top: 10px;}
+/* display : none */
+.section4 .portpolioimgbox .portpic_top {display: none}
+.section4 .portpolioimgbox .portpic_top p{display: none}
+.section4 .portpolioimgbox .portpic_bottom {display: none}
+.section4 .portpolioimgbox .portpic_bottom p{display: none}
+.section4 .portpolioimgbox .zoomin_top{display: none}
+.section4 .portpolioimgbox .zoomin_bottom{display: none}
+.section4 .portpoliotextbox {width: 90%; height: 92%;text-align: center;margin: 0 auto;}
+.section4 .portpoliotextbox h1{line-height: 40px;}
+.section4 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section4 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
+.section4 .portpoliotextbox span{font-size :14px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
+
+
+
+
+
+
 
 .section5 {width: 100%; height:auto;margin-bottom: 5px;float: left;overflow: hidden;}
 .section5_1 {width: 100%; height: 35px;float: left; }
