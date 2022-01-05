@@ -14,7 +14,7 @@ const backgroundImages = [
 ]
 const backgroundImage = () => {
     const random = backgroundImages[Math.floor(Math.random() * backgroundImages.length)]
-    bg.style.background = `top center no-repeat url(${random})`
+    bg.style.background = `top center url(${random})`
     bg.style.backgroundSize = "100%"
     bg.style.display = "fixed"
 }
