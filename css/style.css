@@ -21,6 +21,7 @@ body{margin: 0px;}
 .inner span:nth-child(1) {transform:rotate(45deg) ;}
 .inner .close:hover span:nth-child(2) {animation: qqq 1s linear infinite}
 .inner .close:hover span:nth-child(1) {animation: qqq2 1s linear infinite}
+.inner img {width :200px; margin: 30px auto; text-align: center; display: block;}
 /*애니메이션 */
 @keyframes qqq {
 0%{background-color: #fff; }
@@ -43,7 +44,9 @@ body{margin: 0px;}
 .head .text .moblieTop{width: 100%; font-size: 40px; margin: 0 auto; text-align: center; display: none;}
 
 
-.head .text ul li {display: inline-block; font-size: 20px ;padding: 20px 10px;margin-top: 52px;}
+
+.head .text ul {width: 800px;}
+.head .text ul li {display: inline-block; font-size: 20px ;padding: 20px 10px;margin-top: 52px;float: left;}
 .head .time {width: 212px;height: 50px; float: right;margin: 50px 30px;text-align: right;font-size: 14px;padding: 0;}
 
 
@@ -57,7 +60,8 @@ body{margin: 0px;}
 .sectionbody2 input{width: 108px; height: 18px; margin: 20px 0 0; text-align: center;color: #000;}
 .sectionbody2 button{width: 108px; height: 18px; text-align: center;color: #000;}
 
-.sectionbody2 ul li{display: inline-block; margin: 5px 0 0 5px;}
+.sectionbody2 ul {width: 167px; }
+.sectionbody2 ul li{display: inline-block; }
 /* 본문 */
 .sectionbody{width: 996px; background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9) ); margin: 0 auto;padding:43px 0 0 28px;}
 .profile{width: 100%; height: 285px;}
@@ -230,6 +234,7 @@ body{margin: 0px;}
 .inner span:nth-child(1) {transform:rotate(45deg) ;}
 .inner .close:hover span:nth-child(2) {animation: qqq 1s linear infinite}
 .inner .close:hover span:nth-child(1) {animation: qqq2 1s linear infinite}
+.inner img {width :200px; margin: 30px auto; text-align: center; display: block;}
 /*애니메이션 */
 @keyframes qqq {
 0%{background-color: #fff; }
@@ -243,7 +248,7 @@ body{margin: 0px;}
 .bg { width: 100%;height: 100%;position: fixed; top:0;left: 0px;z-index: -999;opacity: 90%;max-width: 1024px;}
 
 /* head */
-.head {width: 100%;height: 140px; background: linear-gradient(to right,#171817,#111311);margin: 0 auto;}
+.head {min-width: 1024px; width: 100%;height: 140px; background: linear-gradient(to right,#171817,#111311);margin: 0 auto;}
 .head .text {width: 1024px; height: 141px; margin: 0 auto;}
 .head .text h1{font-size: 50px;  float: left;margin: 40px 20px 0 20px;}
 
@@ -252,7 +257,8 @@ body{margin: 0px;}
 .head .text .moblieTop{width: 100%; font-size: 40px; margin: 0 auto; text-align: center; display: none;}
 
 
-.head .text ul li {display: inline-block; font-size: 20px ;padding: 20px 10px;margin-top: 52px;}
+.head .text ul {width: 800px;}
+.head .text ul li {display: inline-block; font-size: 20px ;padding: 20px 10px;margin-top: 52px;float: left;}
 .head .time {width: 212px;height: 50px; float: right;margin: 50px 30px;text-align: right;font-size: 14px;padding: 0;}
 
 
@@ -501,7 +507,7 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .section1 {width: 100%; margin-bottom: 24px;text-align: center}
 .section1_1 {width: 100%; height: 35px;float: left}
 .section1_1 h1 {font-size: 24px;margin-left: 10px;}
-.section1 ul {text-align: center; padding: 70px 0 0 30px;}
+.section1 ul {text-align: center; padding: 70px 0 30px;}
 .section1 ul li {width: 20%;height:auto ; display: inline-block; margin:  0 15px 15px 15px;}
 .section1 ul li img{width: 100%;height: 100%; display: inline-block;}
 
@@ -509,7 +515,7 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .section2 {width: 100%; margin-bottom: 24px;text-align: center}
 .section2_1 {width: 100%; height: 35px;float: left; }
 .section2_1 h1{font-size: 24px;margin-left: 10px;}
-.section2 ul {text-align: center; padding: 70px 0 0 30px;}
+.section2 ul {text-align: center; padding: 70px 0 30px;}
 .section2 ul li {width: 20%;height:auto ; display: inline-block;margin:  0 15px 15px 15px;}
 .section2 ul li img{width: 100%;height: 100%; display: inline-block;}
 

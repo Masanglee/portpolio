@@ -46,8 +46,8 @@ const age = () => {
     const born = new Date("1990-08-19").getTime();
     const ages = realTime - born;
     const korYear = Math.ceil(ages / (1000 * 60 * 60 * 24 * 365))
-    bornyear.innerHTML = `1990.08.19`
-    korage.innerHTML = `${korYear}세`
+    bornyear.innerText = `1990.08.19`
+    korage.innerText = `${korYear+1}세`
 }
 age();
 setInterval(time, 1000)
@@ -77,11 +77,9 @@ const agecalculator = (Event) => {
         const checkDay = parseInt(divinday)
         // 날자를 올바르게 출력 월별마다 32 일 이상으로 잡히는거 방지
         if (checkMonth <= 0 || checkMonth >= 13) {
-            console.log(123451251)
             daycalculator.innerHTML = `날자가 범위를<br> 벗어났습니다.`
             return
         } else if (checkDay <= 0 || checkDay >= 32) {
-            console.log(444444444)
             daycalculator.innerHTML = `날자가 범위를<br> 벗어났습니다.`
             return
         }
@@ -93,8 +91,8 @@ const agecalculator = (Event) => {
         const getTimeToSec = getTime.getTime();
         const gap = timeNow - getTimeToSec
         const year = gap / (1000 * 60 * 60 * 24 * 365)
-        document.querySelector(".paintOnlyAge").innerHTML = `만 나이는 ${Math.floor(year)}세<br> 입니다.`
-        document.querySelector(".paintKorAge").innerHTML = `한국 나이는${Math.ceil(year)+1}세`
+        document.querySelector(".paintOnlyAge").innerText = `만 나이는${Math.floor(year)}세`
+        document.querySelector(".paintKorAge").innerText = `한국 나이는${Math.ceil(year)+1}세`
     } else if (inputLength >= 7 || inputLength <= 9) {
         daycalculator.innerHTML = `<p style="font-size:15px">올바른 값을<br>입력해주세요<br> ex) 19900819 </p>`
         Event.preventDefault();
