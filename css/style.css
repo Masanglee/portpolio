@@ -355,6 +355,26 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .section3 .portpoliotextbox span{font-size :14px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
 
+.section7 {width: 100%; float: left;display: block;margin-bottom: 5px}
+.section7_1 {width: 100%; height: 35px;float: left; }
+.section7_1 h1{font-size: 24px;margin-left: 10px;}
+.section7 .portpolioimgbox {width: 90%;height: auto;margin: 0 auto;}
+.section7 .portpolioimgbox .portpolioimgboxwrap {width: 100%;height: auto;}
+.section7 .portpolioimgbox .portpic {width: 100%; margin-top: 10px;}
+/* displ7y : none */
+.section7 .portpolioimgbox .portpic_top {display: none}
+.section7 .portpolioimgbox .portpic_top p{display: none}
+.section7 .portpolioimgbox .portpic_bottom {display: none}
+.section7 .portpolioimgbox .portpic_bottom p{display: none}
+.section7 .portpolioimgbox .zoomin_top{display: none}
+.section7 .portpolioimgbox .zoomin_bottom{display: none}
+.section7 .portpoliotextbox {width: 90%; height: 92%;text-align: center;margin: 0 auto;}
+.section7 .portpoliotextbox h1{line-height: 40px;}
+.section7 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section7 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
+.section7 .portpoliotextbox span{font-size :14px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
+
+
 
 /* .section4 {width: 100%;margin-bottom: 24px;float: left;display: block;}
 .section4_1 {width: 100%;height: 35px;float: left;}
