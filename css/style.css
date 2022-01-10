@@ -62,8 +62,8 @@ body{margin: 0px;}
 
 .sectionbody2 ul {width: 167px; }
 .sectionbody2 ul li{display: inline-block; }
-/* 본문 */
-.sectionbody{width: 996px; background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9) ); margin: 0 auto;padding:43px 0 0 28px;}
+/* 본문 */ /*backdrop-filter: blur(100%)*/
+.sectionbody{width: 996px;; background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9) ); margin: 0 auto;padding:43px 0 0 28px;}
 .profile{width: 100%; height: 285px;}
 .profile .profilepic {width: 184px; height: 184px;float: left;}
 .textbox{width: 450px; height: 285px;box-sizing: border-box;float: left;margin-left: 23px;position: relative; }
