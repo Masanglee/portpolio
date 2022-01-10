@@ -21,7 +21,7 @@ body{margin: 0px;}
 .inner span:nth-child(1) {transform:rotate(45deg) ;}
 .inner .close:hover span:nth-child(2) {animation: qqq 1s linear infinite}
 .inner .close:hover span:nth-child(1) {animation: qqq2 1s linear infinite}
-.inner img {width :200px; margin: 30px auto; text-align: center; display: block;}
+.inner img {width :100%; margin: 30px auto; text-align: center; display: block;}
 /*애니메이션 */
 @keyframes qqq {
 0%{background-color: #fff; }
@@ -67,13 +67,14 @@ body{margin: 0px;}
 .sectionbody{width: 996px; background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9) ); margin: 0 auto;padding:43px 0 0 28px;}
 .profile{width: 768px; display: inline-block;}
 .profile .picbox .profilepic {width: 184px; height: 184px;}
-.textbox {width: 500px; margin-left: 23px;position: relative;}
-.profile .picbox {width: 200px;height: 500px; float: right;}
+.textbox {width: 500px; position: relative;float: right;}
+.profile .picbox {width: 200px;height: 500px; float: left;}
 .profile .picbox li {display:inline-block; margin-bottom: 20px}
+.textbox {text-align: left;width: 550px;}
 .textbox h1{font-size: 24px; line-height: 32px;}
-.textbox .image5{width: 16px;height: 16px; float: right; position: absolute; top: 75px; left: 200px;}
-.textbox .imagegit_0{width: 16px;height: 16px; float: right; position: absolute; top: 75px; left: 225px;}
-.textbox .imagegit_1{width: 59px;height: 16px; float: right; position: absolute; top: 75px; left: 250px;}
+.textbox .image5{width: 20px;height: auto; float: right; position: absolute; top: 75px; left: 200px;}
+.textbox .imagegit_0{width: 28px;height: auto; float: right; position: absolute; top: 71px; left: 225px;}
+.textbox .imagegit_1{width: 70px;height: auto; float: right; position: absolute; top: 75px; left: 260px;}
 .textbox h2 {font-size: 18px; margin: 8px auto;}
 .textbox p {font-size:14px; white-space: pre-line; word-break:  keep-all; display: inline-block;}
 .textbox span {font-size:12px; line-height: 70px;}
@@ -280,16 +281,18 @@ body{margin: 0px;}
 .sectionbody{width: 996px; background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9) ); margin: 0 auto;padding:43px 0 0 28px;}
 .profile{width: 768px; display: inline-block;}
 .profile .picbox .profilepic {width: 184px; height: 184px;}
-.textbox {width: 500px; margin-left: 23px;position: relative;}
-.profile .picbox {width: 200px;height: 500px; float: right;}
+.textbox {width: 500px; position: relative;float: right;}
+.profile .picbox {width: 200px;height: 500px; float: left;}
 .profile .picbox li {display:inline-block; margin-bottom: 20px}
+.textbox {text-align: left;width: 550px;}
 .textbox h1{font-size: 24px; line-height: 32px;}
-.textbox .image5{width: 16px;height: 16px; float: right; position: absolute; top: 75px; left: 200px;}
-.textbox .imagegit_0{width: 16px;height: 16px; float: right; position: absolute; top: 75px; left: 225px;}
-.textbox .imagegit_1{width: 59px;height: 16px; float: right; position: absolute; top: 75px; left: 250px;}
+.textbox .image5{width: 20px;height: auto; float: right; position: absolute; top: 75px; left: 200px;}
+.textbox .imagegit_0{width: 28px;height: auto; float: right; position: absolute; top: 71px; left: 225px;}
+.textbox .imagegit_1{width: 70px;height: auto; float: right; position: absolute; top: 75px; left: 260px;}
 .textbox h2 {font-size: 18px; margin: 8px auto;}
 .textbox p {font-size:14px; white-space: pre-line; word-break:  keep-all; display: inline-block;}
 .textbox span {font-size:12px; line-height: 70px;}
+
 
 .section_background_body {background-color :#2D312D;}
 .section_background_panal {background:linear-gradient(to right, #5A605A,#3E443E); float: left;}
@@ -308,7 +311,7 @@ body{margin: 0px;}
 
 
 
-/* 사이드 본문 */
+사이드 본문
 .section2 {width: 768px; height: 175px;margin-bottom: 24px;}
 .section2_1 {width: 768px; height: 35px;float: left; }
 .section2_1 h1{font-size: 24px;margin-left: 10px;}
@@ -496,9 +499,10 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .textbox h2 {font-size: 14px;}
 .textbox p {width: 90%;font-size:12px; line-height: 15px;word-break:normal;margin:  0 auto;white-space: pre-line; word-break:  break-all;}
 .textbox span {font-size:12px; line-height: 70px;}
-.textbox .image5{width: 16px;height: 16px; display: inline-block;margin: 5px auto;}
-.textbox .imagegit_0{width: 16px;height: 16px;display: inline-block;margin: 5px auto;}
-.textbox .imagegit_1{width: 59px;height: 16px; display: inline-block;margin: 5px auto;}
+.textbox a {vertical-align: middle;}
+.textbox .image5{width: 20px;height: auto; display: inline-block;margin: 5px auto;}
+.textbox .imagegit_0{width: 25px;height: auto;display: inline-block;margin: 5px auto;}
+.textbox .imagegit_1{width: 59px;height: auto; display: inline-block;margin: 5px auto;}
 
 
 
