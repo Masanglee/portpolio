@@ -117,8 +117,8 @@ body{margin: 0px;}
 .section3 .portpolioimgbox .portpic_top p{font-size: 20px;font-weight: bold;margin-top: 120px;}
 .section3 .portpolioimgbox .portpic_bottom {position: absolute;top: 49%;background-color: rgba(111, 111, 111, .4);width: 300px;height: 50%;opacity: 0;transition: .5s;left: 41px;}
 .section3 .portpolioimgbox .portpic_bottom p{font-size: 20px;font-weight: bold;margin-top: 120px;}
-.section3 .portpolioimgbox .zoomin_top{position: absolute;transition: .5s;top: 10%; left: 50%; transform: translate(-50%) ;opacity: 0;}
-.section3 .portpolioimgbox .zoomin_bottom{position: absolute;transition: .5s;top: 58%; left: 50%; transform: translate(-50%) ;opacity: 0;}
+.section3 .portpolioimgbox .zoomin_top{position: absolute;transition: .5s;top: 10%; left: 50%; transform: translate(-50%) ;opacity: 50%;}
+.section3 .portpolioimgbox .zoomin_bottom{position: absolute;transition: .5s;top: 58%; left: 50%; transform: translate(-50%) ;opacity: 50%;}
 .section3 .portpolioimgbox:hover  .portpic_top {opacity: 100%;}
 .section3 .portpolioimgbox:hover  .portpic_bottom {opacity: 100%;}
 .section3 .portpolioimgbox:hover  .zoomin_top{opacity: 80%} 
@@ -147,8 +147,8 @@ body{margin: 0px;}
 .section4 .portpolioimgbox .portpic_top p{font-size: 20px;font-weight: bold;margin-top: 135px;}
 .section4 .portpolioimgbox .portpic_bottom {position: absolute;top: 49%;background-color: rgba(111, 111, 111, .4);width: 300px;height: 50%;opacity: 0;transition: .5s;left: 41px;}
 .section4 .portpolioimgbox .portpic_bottom p{font-size: 20px;font-weight: bold;margin-top: 120px;}
-.section4 .portpolioimgbox .zoomin_top{position: absolute;transition: .5s;top: 10%; left: 50%; transform: translate(-50%) ;opacity: 0;}
-.section4 .portpolioimgbox .zoomin_bottom{position: absolute;transition: .5s;top: 55%; left: 50%; transform: translate(-50%) ;opacity: 0;}
+.section4 .portpolioimgbox .zoomin_top{position: absolute;transition: .5s;top: 10%; left: 50%; transform: translate(-50%) ;opacity: 50%;}
+.section4 .portpolioimgbox .zoomin_bottom{position: absolute;transition: .5s;top: 58%; left: 50%; transform: translate(-50%) ;opacity: 50%;}
 .section4 .portpolioimgbox:hover  .portpic_top {opacity: 100%;}
 .section4 .portpolioimgbox:hover  .portpic_bottom {opacity: 100%;}
 .section4 .portpolioimgbox:hover  .zoomin_top{opacity: 80%} 
