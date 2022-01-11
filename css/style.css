@@ -53,7 +53,7 @@ body{margin: 0px;}
 
 /*본문 사이드 */
 
-.sectionbody2 {width: 167px; height: 3100;float: right;padding-right: 30px; text-align: right;}
+.sectionbody2 {width: 167px; height: 3100px;float: right;padding-right: 30px; text-align: right;}
 .sectionbody2 h2{text-align: right;} 
 .sectionbody2 h3{text-align: right;margin-bottom: 30px;} 
 .sectionbody2 span{font-size: 18px;} 
@@ -125,15 +125,15 @@ body{margin: 0px;}
 .section3 .portpolioimgbox:hover  .zoomin_bottom{opacity: 80%} 
 .section3 .portpic_top:hover {background: rgba(250, 128, 114, .9);}
 .section3 .portpic_bottom:hover {background: rgba(250, 128, 114, .9);}
-.section3 .zoomin_top:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
-.section3 .zoomin_bottom:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+.section3 .zoomin_top:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
+.section3 .zoomin_bottom:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
 
 
 .section3 .zoomin_top:hover {display: block; opacity: 100%;}
 .section3 .zoomin_bottom:hover {display: block; opacity: 100%;}
 .section3 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
 .section3 .portpoliotextbox h1{line-height: 25px;}
-.section3 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section3 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep-all;}
 .section3 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section3 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
@@ -155,13 +155,13 @@ body{margin: 0px;}
 .section4 .portpolioimgbox:hover  .zoomin_bottom{opacity: 80%} 
 .section4 .portpic_top:hover {background: rgba(250, 128, 114, .9);}
 .section4 .portpic_bottom:hover {background: rgba(250, 128, 114, .9);}
-.section4 .zoomin_top:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
-.section4 .zoomin_bottom:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+.section4 .zoomin_top:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
+.section4 .zoomin_bottom:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
 .section4 .zoomin_top:hover {display: block; opacity: 100%;}
 .section4 .zoomin_bottom:hover {display: block; opacity: 100%;}
 .section4 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
 .section4 .portpoliotextbox h1{line-height: 25px;}
-.section4 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section4 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep-all;}
 .section4 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section4 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
@@ -183,13 +183,13 @@ body{margin: 0px;}
 /* .section5 .portpolioimgbox:hover  .zoomin_bottom{opacity: 80%}  */
 .section5 .portpic_top:hover {background: rgba(250, 128, 114, .9);}
 /* .section5 .portpic_bottom:hover {background: rgba(250, 128, 114, .9);} */
-.section5 .zoomin_top:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+.section5 .zoomin_top:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
 /* .section5 .zoomin_bottom:hover {opacity:100% ; transform: scale(120%) translate(-40%);} */
 .section5 .zoomin_top:hover {display: block; opacity: 100%;}
 /* .section5 .zoomin_bottom:hover {display: block; opacity: 100%;} */
 .section5 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
 .section5 .portpoliotextbox h1{line-height: 25px;}
-.section5 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section5 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep-all;}
 .section5 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section5 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
@@ -269,7 +269,7 @@ body{margin: 0px;}
 
 /*본문 사이드 */
 
-.sectionbody2 {width: 167px; height: 3100;float: right;padding-right: 30px; text-align: right;}
+.sectionbody2 {width: 167px; height: 3100px;float: right;padding-right: 30px; text-align: right;}
 .sectionbody2 h2{text-align: right;} 
 .sectionbody2 h3{text-align: right;margin-bottom: 30px;} 
 .sectionbody2 span{font-size: 18px;} 
@@ -339,15 +339,15 @@ body{margin: 0px;}
 .section3 .portpolioimgbox:hover  .zoomin_bottom{opacity: 80%} 
 .section3 .portpic_top:hover {background: rgba(250, 128, 114, .9);}
 .section3 .portpic_bottom:hover {background: rgba(250, 128, 114, .9);}
-.section3 .zoomin_top:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
-.section3 .zoomin_bottom:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+.section3 .zoomin_top:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
+.section3 .zoomin_bottom:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
 
 
 .section3 .zoomin_top:hover {display: block; opacity: 100%;}
 .section3 .zoomin_bottom:hover {display: block; opacity: 100%;}
 .section3 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
 .section3 .portpoliotextbox h1{line-height: 25px;}
-.section3 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section3 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep-all;}
 .section3 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section3 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
@@ -369,13 +369,13 @@ body{margin: 0px;}
 .section4 .portpolioimgbox:hover  .zoomin_bottom{opacity: 80%} 
 .section4 .portpic_top:hover {background: rgba(250, 128, 114, .9);}
 .section4 .portpic_bottom:hover {background: rgba(250, 128, 114, .9);}
-.section4 .zoomin_top:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
-.section4 .zoomin_bottom:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+.section4 .zoomin_top:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
+.section4 .zoomin_bottom:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
 .section4 .zoomin_top:hover {display: block; opacity: 100%;}
 .section4 .zoomin_bottom:hover {display: block; opacity: 100%;}
 .section4 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
 .section4 .portpoliotextbox h1{line-height: 25px;}
-.section4 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section4 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep-all;}
 .section4 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section4 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
@@ -391,19 +391,19 @@ body{margin: 0px;}
 /* .section5 .portpolioimgbox .portpic_bottom p{font-size: 20px;font-weight: bold;margin-top: 120px;} */
 .section5 .portpolioimgbox .zoomin_top{position: absolute;transition: .5s;top: 40%; left: 50%; transform: translate(-50%) ;opacity: 0;}
 /* .section5 .portpolioimgbox .zoomin_bottom{position: absolute;transition: .5s;top: 58%; left: 50%; transform: translate(-50%) ;opacity: 0;} */
-.section5 .portpolioimgbox:hover  .portpic_top {opacity: 100%;}
+.section5_1 .portpolioimgbox:hover  .portpic_top {opacity: 100%;}
 /* .section5 .portpolioimgbox:hover  .portpic_bottom {opacity: 100%;} */
 .section5 .portpolioimgbox:hover  .zoomin_top{opacity: 80%} 
 /* .section5 .portpolioimgbox:hover  .zoomin_bottom{opacity: 80%}  */
 .section5 .portpic_top:hover {background: rgba(250, 128, 114, .9);}
 /* .section5 .portpic_bottom:hover {background: rgba(250, 128, 114, .9);} */
-.section5 .zoomin_top:hover {opacity:100% ; transform: scale(120%) translate(-40%);}
+.section5 .zoomin_top:hover {opacity:100% ; transform: scale(1.2) translate(-40%);}
 /* .section5 .zoomin_bottom:hover {opacity:100% ; transform: scale(120%) translate(-40%);} */
 .section5 .zoomin_top:hover {display: block; opacity: 100%;}
 /* .section5 .zoomin_bottom:hover {display: block; opacity: 100%;} */
 .section5 .portpoliotextbox{width: 50%; height: 92% ;border: 1px solid rgba(0,0,0,0);box-sizing: border-box;float: left;padding: 40px 30px;}
 .section5 .portpoliotextbox h1{line-height: 25px;}
-.section5 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section5 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep-all;}
 .section5 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section5 .portpoliotextbox span{font-size :20px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
@@ -477,7 +477,7 @@ body{margin: 0px;}
 
 /*본문 사이드 */
 
-.sectionbody2 {width: 167px; height: 3000;padding-right: 30px; text-align: right;display: none;}
+.sectionbody2 {width: 167px; height: 3000px;padding-right: 30px; text-align: right;display: none;}
 /* .sectionbody2 h2{text-align: right;} 
 .sectionbody2 h3{text-align: right;margin-bottom: 30px;} 
 .sectionbody2 span{font-size: 18px;} 
@@ -562,7 +562,7 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .section3 .portpolioimgbox .zoomin_bottom{display: none}
 .section3 .portpoliotextbox {width: 90%; height: 92%;text-align: center;margin: 0 auto;}
 .section3 .portpoliotextbox h1{line-height: 40px;}
-.section3 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section3 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep-all;}
 .section3 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section3 .portpoliotextbox span{font-size :14px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
@@ -584,7 +584,7 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 
 .section4 .portpoliotextbox {width: 90%; height: 92%;text-align: center;margin: 0 auto;}
 .section4 .portpoliotextbox h1{line-height: 40px;}
-.section4 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section4 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep-all;}
 .section4 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section4 .portpoliotextbox span{font-size :14px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
@@ -624,7 +624,7 @@ body { width: 100%;height: 100%; background: linear-gradient(to right,rgba(37, 4
 .section5 .portpolioimgbox .zoomin_bottom{display: none}
 .section5 .portpoliotextbox {width: 90%; height: 92%;text-align: center;margin: 0 auto;}
 .section5 .portpoliotextbox h1{line-height: 40px;}
-.section5 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep;}
+.section5 .portpoliotextbox p{font-size :16px; white-space: pre-line; word-break:  keep-all;}
 .section5 .portpoliotextbox p a{text-decoration: underline;font-size :18px; white-space: pre-line; color: red;font-weight: bold;}
 .section5 .portpoliotextbox span{font-size :14px; white-space: pre-line; color:coral;font-weight: bold; text-align: center; display: block;line-height: 70px;}
 
