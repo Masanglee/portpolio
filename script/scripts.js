@@ -3,8 +3,6 @@ const bg = document.querySelector(".bg")
 
 
 // 배경화면 랜덤--------------------------------------------------------------------------------------------
-
-
 const backgroundImages = [
     "https://cdn.pixabay.com/photo/2016/01/14/02/20/night-view-1139229_960_720.jpg",
     "https://cdn.pixabay.com/photo/2021/03/02/01/07/cyberpunk-6061251_960_720.jpg",

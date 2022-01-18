@@ -228,7 +228,7 @@ body{margin: 0px;}
 
 
 /*팝업*/
-.popup{width: 500px; height: 600px; position: absolute; top: 20%; right: 50%;transform: translate(50%); background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9)); z-index: 10; border: solid #fff 5px; box-sizing: border-box;}
+.popup{width: 500px; height: 600px; position: absolute; top: 20%; right: 50%;transform: translate(50%); background: linear-gradient(to right,rgba(37, 45, 36, .9), rgba(17, 18, 16, .9) 25%,rgba(17, 18, 16, .9)); z-index: 10; border: solid #fff 5px; box-sizing: border-box;backdrop-filter: blur(3px);border-radius: 10px;}
 
 
 .inner{z-index: 11;width: 470px; height: 570px; position: absolute; top: 20%; right: 50%;padding: 20px; text-align: center;transform: translate(50%)}
@@ -249,7 +249,7 @@ body{margin: 0px;}
 100%{background-color:#fff;transform: rotate(405deg)}
 }
 /*본문 백그라운드  */
-.bg { width: 100%;height: 100%;position: fixed; top:0;left: 0px;z-index: -999;opacity: 90%;max-width: 1024px;}
+.bg { width: 100%;height: 100%;position: fixed; top:0;left: 0px;z-index: -999;opacity: 90%;max-width: 1024px;filter: blur(10px)}
 
 /* head */
 .head {min-width: 1024px; width: 100%;height: 140px; background: linear-gradient(to right,#171817,#111311);margin: 0 auto;}
@@ -463,7 +463,7 @@ body{margin: 0px;}
 100%{background-color:#fff;transform: rotate(405deg)}
 } */
 /*본문 백그라운드  */
-.bg {width: 1024px;  height: 100%; ;position: fixed; top:0;left: 0px;z-index: -999;opacity: 90%;}
+.bg {width: 1024px;  height: 100%; ;position: fixed; top:0;left: 0px;z-index: -999;opacity: 90%;filter: blur(10px)}
 
 /* head */
 .head {width: 100%;height: 100px; background: linear-gradient(to right,#171817,#111311);margin: auto; }
